@@ -1,0 +1,26 @@
+{
+	"flex-1": {
+		"style": {
+			"flexGrow": 1,
+			"flexShrink": 1,
+			"flexBasis": "0%"
+		}
+	},
+	"bg-black": {
+		"style": {
+			"--tw-bg-opacity": 1,
+			"backgroundColor": "rgb(0 0 0 / var(--tw-bg-opacity))"
+		}
+	},
+	"bg-current": {
+		"style": {
+			"backgroundColor": "currentColor"
+		}
+	},
+	"bg-slate-400": {
+		"style": {
+			"--tw-bg-opacity": 1,
+			"backgroundColor": "rgb(148 163 184 / var(--tw-bg-opacity))"
+		}
+	}
+}

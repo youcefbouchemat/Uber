@@ -8,9 +8,15 @@
 
 import React from 'react';
 import RootApp from './RootApp';
+import {TailwindProvider} from 'tailwind-rn';
+import utilities from './tailwind.json';
 
 const App = () => {
-  return <RootApp />;
+  return (
+    <TailwindProvider utilities={utilities}>
+      <RootApp />
+    </TailwindProvider>
+  );
 };
 
 export default App;
